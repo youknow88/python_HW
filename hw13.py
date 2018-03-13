@@ -6,6 +6,6 @@ def triangle_square_and_perimeter(cathetus1, cathetus2):
    return triangle_square, triangle_perimeter
 
 triangle_square, triangle_perimeter = triangle_square_and_perimeter( 10, 44)
-print('Площадь прямоугольного треугольника = %dсм, а его периметр = %dсм'%(triangle_square, triangle_perimeter))
+print('Площадь прямоугольного треугольника = %.2fсм, а его периметр = %.2fсм'%(triangle_square, triangle_perimeter))
 
 

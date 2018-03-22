@@ -21,11 +21,11 @@ import random
 
 
 def greeting():
-    print('-------------------------')
+    print('------------------------')
 
     print('Please enter your number:')
 
-    print('-------------------------')
+    print('------------------------')
 
 
 def guess_game():

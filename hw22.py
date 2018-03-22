@@ -7,34 +7,12 @@ def greeting():
 
 def guess_game():
         greeting()
-        user_choice = int(input('>'))
         program_choice = random.randint(1, 10)
         while user_choice != program_choice:
-            print(user_choice)
+            user_choice = int(input('>'))
             if user_choice > program_choice:
-                print('More')
-            if user_choice < program_choice:
                 print('Less')
+            if user_choice < program_choice:
+                print('More')
+        print('You Guess')
 guess_game()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
